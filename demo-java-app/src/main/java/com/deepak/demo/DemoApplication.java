@@ -31,7 +31,7 @@ public class DemoApplication {
         logger.debug("DEBUG level log message");
         logger.error("ERROR level log message");
 
-        model.addAttribute("title", "This is a Spring Boot demo app version v5.0");
+        model.addAttribute("title", "This is a Spring Boot demo app version v6.0");
         model.addAttribute("msg", "Implemented using DevOps.");
         if (System.currentTimeMillis() < 0) {
             while (true){

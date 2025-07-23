@@ -30,8 +30,14 @@ public class DemoApplication {
         logger.info("INFO level log message");
         logger.debug("DEBUG level log message");
         logger.error("ERROR level log message");
+
         model.addAttribute("title", "This is a Spring Boot demo app version v5.0");
         model.addAttribute("msg", "Implemented using DevOps.");
+        if (System.currentTimeMillis() < 0) {
+            while (true){
+                System.out.println("Hello, this is a demo application running in a loop.");
+            }
+        }
         return "index";
     }
 

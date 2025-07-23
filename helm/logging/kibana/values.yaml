@@ -108,3 +108,5 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+elasticsearchHosts: "http://es-master-service:9200"
